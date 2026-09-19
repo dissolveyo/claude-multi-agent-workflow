@@ -1,7 +1,7 @@
 ---
 name: route-reviewer
 description: Use this agent to review new or changed routes in course-api/routes/ against the conventions in course-api/CLAUDE.md. Read-only — it reports findings, it does not edit code. Invoke it after route changes, before the change is considered done, or whenever the user asks for a review of route code.
-tools: Read, Grep, Glob, Bash
+tools: Read, Grep, Glob
 model: sonnet
 ---
 
